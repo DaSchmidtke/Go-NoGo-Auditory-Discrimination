@@ -1,4 +1,4 @@
-# WORKING TITLE: Acoustic-training **TODO**
+# WORKING TITLE: Go-NoGo Auditory Discrimination **TODO**
 
 The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based auditory learning experiments as described in XYZ **TODO** et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
 
