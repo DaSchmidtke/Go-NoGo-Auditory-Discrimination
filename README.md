@@ -1,6 +1,6 @@
 # Sensory Island Task (SIT)
 
-The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based sensory perception  experiments as described in Ferreiro et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
+The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based sensory perception  experiments, the Sensory Island Task, as described in Ferreiro et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
 
 ### Installation
 
