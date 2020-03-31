@@ -1,6 +1,6 @@
-# WORKING TITLE: Go-NoGo Auditory Discrimination **TODO**
+# Sensory Island Task (One Island Version)
 
-The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based auditory learning experiments as described in XYZ **TODO** et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
+The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based sensory perception  experiments as described in Ferreiro et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
 
 ### Installation
 
