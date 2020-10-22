@@ -1,14 +1,14 @@
 # Sensory Island Task (SIT)
 
-The project provides several Jupyter notebooks for the behavioral testing of animals in open-field-based sensory perception  experiments, the Sensory Island Task, as described in Ferreiro et al. 2020 (doi:XYZ **TODO**) and the pre-processing of the output data for subsequent analysis in MATLAB.
+This repository provides Jupyter notebooks for the Sensory Island Task, a behavioral experiment described in detail in Ferreiro et al. 2020 (doi: 10.3389/fnbeh.2020.576154), and the pre-processing of the resulting output data for subsequent analysis in MATLAB.
 
 ### Installation
 
-This project was developed and tested on different Windows (Win7 and Win10) machines. We recommend using Anaconda to run the project notebooks.
+This project was developed and tested on different Windows (Win7 and Win10) computers. I recommend using Anaconda to run the project notebooks.
 
 To install Anaconda, download the Anaconda installer with Python 3 (tested with Anaconda3-2019.10, bundled with Python 3.7) and follow the instructions on the download page.
 
-After installation, we recommend creating an Anaconda environment from which Jupyter Notebook will be started to run the provided notebooks. You can create new environments using Anaconda's navigator or from an Anaconda prompt using:
+After installation, I recommend creating an Anaconda environment from which Jupyter Notebook will be started to run the provided notebooks. You can create new environments using Anaconda's navigator or from an Anaconda prompt using:
 
     conda create --name myenv
 
@@ -22,9 +22,9 @@ Once the environment has been activated, install R, its essentials, and the kern
     conda install r-essentials 
     conda install -c r r-irkernel
 
-Finally, for the notebooks to run, you will have to install additional python modules and R libraries and their dependencies to your environment. Notebooks may not run smoothly, if the wrong versions of the modules are installed. Especially having the wrong versions of openCV can cause trouble, which is why we provide the Jupyter notebooks that run on Python 3 for two different versions of openCV (3.4.2 & 4.0.1). The code below will install the latest version of the modules/libraries to your environment. Version numbers in brackets are the latest module/library versions the notebooks were tested with (5th of Febuary, 2020).
+Finally, for the notebooks to run, you will have to install additional python modules and R libraries and their dependencies to your environment. Notebooks may not run smoothly, if the wrong versions of the modules are installed. Especially having the wrong versions of openCV can cause trouble. The Jupyter notebooks provided here run on Python 3 with openCV 3.4.2. The code below will install the latest version of the modules/libraries to your environment. Version numbers in brackets are the latest module/library versions the notebooks were tested with (5th of Febuary, 2020).
 
-**Python modules:** numpy (1.18.1), openCV (3.4.2 or 4.0.1), tkinter (8.6.8), xlxswriter (1.2.7), scipy (1.3.2), sounddevice (0.3.14), pyfirmata (1.1.0)
+**Python modules:** numpy (1.18.1), openCV (3.4.2), tkinter (8.6.8), xlxswriter (1.2.7), scipy (1.3.2), sounddevice (0.3.14), pyfirmata (1.1.0)
 
     conda install numpy
     conda install opencv
@@ -51,7 +51,8 @@ To work with the different notebooks, select the folder to which you downloaded 
 
 ## License
 
-This project is licensed under the MIT License (see the license file **TODO** for details). 
+This project is licensed under the MIT License (see the license file for details). 
+
 ## Acknowledgments
 
 * The implemented tracking algorithm was inspired by **colinlaney**'s animal-tracking at: https://github.com/colinlaney/animal-tracking
