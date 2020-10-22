@@ -31,6 +31,7 @@ Finally, for the notebooks to run, you will have to install additional python mo
     conda install tk
     conda install xlsxwriter
     conda install scipy
+    conda install pandas
     conda install -c conda-forge python-sounddevice
     conda install -c conda-forge pyfirmata
 
