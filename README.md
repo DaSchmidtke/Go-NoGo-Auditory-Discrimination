@@ -22,7 +22,7 @@ Once the environment has been activated, install R, its essentials, and the kern
     conda install r-essentials 
     conda install -c r r-irkernel
 
-Finally, for the notebooks to run, you will have to install additional python modules and R libraries and their dependencies to your environment. Notebooks may not run smoothly, if the wrong versions of the modules are installed. Especially having the wrong versions of openCV can cause trouble. The Jupyter notebooks provided here run on Python 3 with openCV 3.4.2. The code below will install the latest version of the modules/libraries to your environment. Version numbers in brackets are the latest module/library versions the notebooks were tested with (5th of Febuary, 2020).
+Finally, for the notebooks to run, you will have to install additional python modules and R libraries and their dependencies to your environment. Notebooks may not run smoothly, if the wrong versions of the modules are installed. Especially having the wrong versions of openCV can cause trouble. The Jupyter notebooks provided here run on Python 3 with openCV 3.4.2. The code below will install the latest version of the modules/libraries to your environment. Version numbers in brackets are the latest module/library versions the notebooks were tested with (27th of May, 2020).
 
 **Python modules:** numpy (1.18.1), openCV (3.4.2), tkinter (8.6.8), xlxswriter (1.2.7), scipy (1.3.2), sounddevice (0.3.14), pyfirmata (1.1.0)
 
