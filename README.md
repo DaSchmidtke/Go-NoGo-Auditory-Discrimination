@@ -53,6 +53,8 @@ To work with the different notebooks, select the folder to which you downloaded 
 
 This project is licensed under the MIT License (see the license file for details). 
 
+If you use the code for scientific purposes without modification, please cite this repository and/or our methods paper (Ferreiro et al. 2020; doi: 10.3389/fnbeh.2020.576154)
+
 ## Acknowledgments
 
 * The implemented tracking algorithm was inspired by **colinlaney**'s animal-tracking at: https://github.com/colinlaney/animal-tracking
