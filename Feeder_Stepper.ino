@@ -2,24 +2,6 @@
 // copyright Adafruit Industries LLC, 2009
 // this code is public domain, enjoy!
 
-//All 6 analog input pins are available. They can also be used as digital pins (pins #14 thru 19)
-//
-//Digital pin 2, and 13 are not used.
-//
-//The following pins are in use only if the DC/Stepper noted is in use:
-//Digital pin 11: DC Motor #1 / Stepper #1 (activation/speed control)
-//Digital pin 3: DC Motor #2 / Stepper #1 (activation/speed control)
-//Digital pin 5: DC Motor #3 / Stepper #2 (activation/speed control)
-//Digital pin 6: DC Motor #4 / Stepper #2 (activation/speed control)
-//
-//The following pins are in use if any DC/steppers are used
-//Digital pin 4, 7, 8 and 12 are used to drive the DC/Stepper motors via the 74HC595 serial-to-parallel latch
-//
-//The following pins are used only if that particular servo is in use:
-//Digitals pin 9: Servo #1 control
-//Digital pin 10: Servo #2 control
-
-
 #include <AFMotor.h>
 
 #define triggerPin 2
@@ -42,14 +24,14 @@ void loop() {
   //
   triggerInput = digitalRead(triggerPin);
   Serial.println(triggerInput);
-  if (triggerInput == HIGH)
+  if (triggerInput == HIGH)                 // Activates the motor if a trigger pulse was detected
   {
     Serial.println("Triggering");
-    motor.step(57, BACKWARD, MICROSTEP);
+    motor.step(57, BACKWARD, MICROSTEP);    // You may have to adapt the number of steps to your feeder
     delay(300);
   }
 
-  moveInput = digitalRead(movePin);
+  moveInput = digitalRead(movePin);         // A button on the Arduino Uno can be used to manually activate the motor to adjust for the right starting position
   if (moveInput == HIGH)
   { motor.step(1, BACKWARD, MICROSTEP);
     Serial.println("Moving");
