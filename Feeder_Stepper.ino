@@ -10,7 +10,7 @@ int ++ = 0;
 #define movePin 13
 int moveInput = 0;
 
-// Connect a stepper motor with 48 steps per revolution (7.5 degree)
+// Connect a stepper motor with 200 steps per revolution (1.8 degree)
 // to motor port #2 (M3 and M4)
 AF_Stepper motor(200, 2);
 
@@ -24,14 +24,14 @@ void loop() {
   //
   triggerInput = digitalRead(triggerPin);
   Serial.println(triggerInput);
-  if (triggerInput == HIGH)                 // Activates the motor if a trigger pulse was detected
+  if (triggerInput == HIGH)                 // Activates the motor each time a trigger pulse is detected
   {
     Serial.println("Triggering");
     motor.step(57, BACKWARD, MICROSTEP);    // You may have to adapt the number of steps to your feeder
     delay(300);
   }
 
-  moveInput = digitalRead(movePin);         // A button on the Arduino Uno can be used to manually activate the motor to adjust for the right starting position
+  moveInput = digitalRead(movePin);         // A button connected to the Arduino can be used to manually activate the motor for single steps for calibration purposes
   if (moveInput == HIGH)
   { motor.step(1, BACKWARD, MICROSTEP);
     Serial.println("Moving");
