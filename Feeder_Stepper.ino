@@ -24,9 +24,9 @@ void loop() {
   //
   triggerInput = digitalRead(triggerPin);
   Serial.println(triggerInput);
-  if (triggerInput == HIGH)                 // Activates the motor each time a trigger pulse is detected
+  if (triggerInput == HIGH)                 // If a trigger pulse is detected, the motor is activated
   {
-    Serial.println("Triggering");
+    Serial.println("Triggering");           
     motor.step(57, BACKWARD, MICROSTEP);    // You may have to adapt the number of steps to your feeder
     delay(300);
   }
