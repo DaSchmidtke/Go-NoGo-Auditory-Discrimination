@@ -1,6 +1,6 @@
 # Sensory Island Task (SIT)
 
-This repository provides Jupyter notebooks for the Sensory Island Task, a behavioral experiment described in detail in Ferreiro et al. 2020 (doi: 10.3389/fnbeh.2020.576154), and the pre-processing of the resulting output data for subsequent analysis in MATLAB. For a tutorial on how to use the script to run an experiment visit [my blog](at cognitive-ethology.netlify.app).
+This repository provides Jupyter notebooks for the Sensory Island Task, a behavioral experiment described in detail in Ferreiro et al. 2020 (doi: 10.3389/fnbeh.2020.576154), and the pre-processing of the resulting output data for subsequent analysis in MATLAB. For a tutorial on how to use the script to run an experiment visit [my blog](cognitive-ethology.netlify.app).
 
 ### Installation
 
